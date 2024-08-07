@@ -1,0 +1,39 @@
+---
+import Header from '../components/Header.astro';
+import i18next, { t } from "i18next";
+---
+
+<!doctype html>
+<html lang={i18next.language}>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={t('site.description')} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<meta name="generator" content={Astro.generator} />
+		<title>{t('site.title')} Hola</title>
+	</head>
+	<body>
+		<Header/>
+		<main class="w-full flex flex-col items-center">
+			<slot />
+		</main>
+	</body>
+</html>
+<style is:global>
+	:root {
+		color-scheme: light dark;
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+        background: linear-gradient(90deg, #070603, #270f07);
+		margin: 0;
+	}
+</style>

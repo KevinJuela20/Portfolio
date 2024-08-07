@@ -1,0 +1,36 @@
+---
+import i18next, { t } from "i18next";
+---
+<header class="fixed top-0 left-0 right-0 flex flex-col sm:flex-row justify-between items-center py-5 w-full bg-black bg-opacity-80 z-50 px-4 sm:px-8">
+    <h1 class="font-bold text-4xl text-gradient mb-2 sm:mb-0">Portafolio</h1>
+    <nav class="flex flex-row gap-y-2 sm:gap-y-0 gap-x-0 sm:gap-x-10">
+        <a class="p-1.5 text-lg menu" href="#home">{t("header.start")}</a>
+        <a class="p-1.5 text-lg menu" href="#about">Sobre mí</a>
+        <a class="p-1.5 text-lg menu" href="#projects">Proyectos</a>
+        <a class="p-1.5 text-lg menu" href="#studies">Estudios</a>
+        <a class="p-1.5 text-lg border-orange-600 border-2 contact" href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<style>
+    .text-gradient {
+        background: linear-gradient(90deg, #a33607, #ff7802);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .contact {
+        border-radius: 8%;
+        color: #d66508;
+    }
+    .contact:hover {
+        border-width: 3px;
+        font-weight: bold;
+    }
+    
+    .menu:hover {
+        color: #ff7300;
+        font-weight: bold;
+        border-bottom: #d66508 solid 2px;
+        background-color: rgb(35, 33, 29);
+    }
+</style>

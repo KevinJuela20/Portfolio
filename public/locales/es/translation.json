@@ -1,0 +1,14 @@
+{
+    "site": {
+      "title": "Portafolio Fernando Juela",
+      "description": "Sitio web de Fernando Juela"
+    },
+    "header": {
+        "title": "Portafolio",
+        "start": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "studies": "Estudios",
+        "contact": "Contacto"
+    }
+}
