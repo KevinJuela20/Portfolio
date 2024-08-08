@@ -2,13 +2,13 @@
 import i18next, { t } from "i18next";
 ---
 <header class="fixed top-0 left-0 right-0 flex flex-col sm:flex-row justify-between items-center py-5 w-full bg-black bg-opacity-80 z-50 px-4 sm:px-8">
-    <h1 class="font-bold text-4xl text-gradient mb-2 sm:mb-0">Portafolio</h1>
+    <h1 class="font-bold text-4xl text-gradient mb-2 sm:mb-0">{t("header.title")}</h1>
     <nav class="flex flex-row gap-y-2 sm:gap-y-0 gap-x-0 sm:gap-x-10">
         <a class="p-1.5 text-lg menu" href="#home">{t("header.start")}</a>
-        <a class="p-1.5 text-lg menu" href="#about">Sobre mí</a>
-        <a class="p-1.5 text-lg menu" href="#projects">Proyectos</a>
-        <a class="p-1.5 text-lg menu" href="#studies">Estudios</a>
-        <a class="p-1.5 text-lg border-orange-600 border-2 contact" href="#contact">Contacto</a>
+        <a class="p-1.5 text-lg menu" href="#about">{t("header.about")}</a>
+        <a class="p-1.5 text-lg menu" href="#projects">{t("header.projects")}</a>
+        <a class="p-1.5 text-lg menu" href="#studies">{t("header.studies")}</a>
+        <a class="p-1.5 text-lg border-orange-600 border-2 contact" href="#contact">{t("header.contact")}</a>
     </nav>
 </header>
 

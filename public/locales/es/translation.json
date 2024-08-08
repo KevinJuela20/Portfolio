@@ -4,11 +4,15 @@
       "description": "Sitio web de Fernando Juela"
     },
     "header": {
-        "title": "Portafolio",
-        "start": "Inicio",
-        "about": "Sobre mí",
-        "projects": "Proyectos",
-        "studies": "Estudios",
-        "contact": "Contacto"
+      "title": "Portafolio",
+      "start": "Inicio",
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "studies": "Estudios",
+      "contact": "Contacto"
+    },
+    "home": {
+      "name": "Fernando Juela",
+      "career": "Ingeniero en Ciencias de la Computación"
     }
 }
