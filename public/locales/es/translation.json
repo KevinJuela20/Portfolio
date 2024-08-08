@@ -21,7 +21,17 @@
       "specialization": "Desarrollador full-stack y machine learning junior.",
       "introduction": "Me especializo en crear experiencias digitales intuitivas y funcionales, tanto en el front-end, el back-end como sistemas que apliquen aprendizaje máquina. Con una sólida comprensión del manejo de bases de datos. Mi pasión por la tecnología me impulsa a aprender constantemente y a perfeccionar mis habilidades para enfrentar nuevos desafíos en el desarrollo de sistemas informáticos.",
       "date": "<0><1>Fecha de nacimiento:</1> 20/03/2000</0>",
-      "country": "<0><1>País:</1> Ecuador</0>",
+      "address": "<0><1>Dirección:</1> Cuenca, Ecuador</0>",
+      "age": "<0><1>Edad:</1> 24</0>"
+    },
+    "projects": {
+      "title": "Proyectos"
+    },
+    "experience": {
+      "title": "Experiencia"
+    },
+    "contact": {
+      "title": "Contacto",
       "telephone": "<0><1>Teléfono:</1> <2>+593</2> 98 828 4405 | <3>+593</3> 963 61 6445</0>",
       "mail": "<0><1>Correo:</1> fernando.dev2024@gmail.com</0>"
     }

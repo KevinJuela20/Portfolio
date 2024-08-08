@@ -1,0 +1,20 @@
+---
+import { t } from "i18next";
+import { Trans} from "astro-i18next/components";
+---
+<div  class="flex flex-col  p-8  w-full" >
+    <div class="mt-28 flex justify-center">
+        <h1 class="font-bold text-4xl text-gradient mb-2 sm:mb-0">{t("contact.title")}</h1>
+    </div>
+    <div class="content">
+        <Trans i18nKey="about.address">
+            <p class="sm:text-lg sm:border-l-4 text-sm border-l-2 pl-2 border-orange-500 m-1"><b>Dirección:</b> Cuenca, Ecuador</p>
+        </Trans>
+        <Trans i18nKey="contact.telephone">
+            <p class="sm:text-lg sm:border-l-4 text-sm border-l-2 pl-2 border-orange-500 m-1"><b>Teléfono:</b> <span class="text-orange-500">+593</span> 98 828 4405 - <span class="text-orange-500">+593</span> 963 61 6445</p>
+        </Trans>
+        <Trans i18nKey="contact.mail">
+            <p class="sm:text-lg sm:border-l-4 text-sm border-l-2 pl-2 border-orange-500 m-1"><b>Correo:</b> fernando.dev2024@gmail.com</p>
+        </Trans>
+    </div>
+</div>
