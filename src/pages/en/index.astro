@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import Home from "../../components/Home.astro";
 import About from "../../components/About.astro";
-import i18next, { t, changeLanguage } from "i18next";
+import { changeLanguage } from "i18next";
 
 changeLanguage("en");
 ---
@@ -12,11 +12,22 @@ changeLanguage("en");
         <Home/>
     </section>
     
-    <section id="about" class="w-full h-screen">
+    <section id="about" class="w-full bg-zinc-400 bg-opacity-10 border-4">
         <About/>
     </section>
     
-    <section id="projects" class="section">
+    <section id="projects" class="w-full h-screen">
+        <div class="content">
+            <h3>Proyectos</h3>
+            <ul>
+                <li>Proyecto 1: Descripción breve</li>
+                <li>Proyecto 2: Descripción breve</li>
+                <li>Proyecto 3: Descripción breve</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience" class="w-full h-screen">
         <div class="content">
             <h3>Proyectos</h3>
             <ul>
@@ -27,7 +38,7 @@ changeLanguage("en");
         </div>
     </section>
     
-    <section id="contact" class="section">
+    <section id="contact">
         <div class="content">
             <h3>Contacto</h3>
             <p>Email: fernando.juela@example.com</p>

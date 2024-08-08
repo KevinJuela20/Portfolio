@@ -1,14 +1,28 @@
 {
-    "site": {
-      "title": "Fernando Juela Portfolio",
-      "description": "Fernando Juela's website"
-    },
-    "header": {
-        "title": "Portfolio",
-        "start": "Home",
-        "about": "About Me",
-        "projects": "Projects",
-        "studies": "Studies",
-        "contact": "Contact"
-    }
+  "site": {
+    "title": "Fernando Juela's Portfolio",
+    "description": "Fernando Juela's website"
+  },
+  "header": {
+    "title": "Portfolio",
+    "start": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "home": {
+    "name": "Fernando Juela",
+    "career": "Computer Science Engineer"
+  },
+  "about": {
+    "title": "About Me",
+    "greeting": "<0>Hello! I'm <1>Fernando Juela</1></0>",
+    "specialization": "Junior full-stack and machine learning developer.",
+    "introduction": "I specialize in creating intuitive and functional digital experiences, both on the front-end, back-end, and systems that apply machine learning. With a solid understanding of database management. My passion for technology drives me to constantly learn and refine my skills to tackle new challenges in computer system development.",
+    "date": "<0><1>Date of Birth:</1> 03/20/2000</0>",
+    "country": "<0><1>Country:</1> Ecuador</0>",
+    "telephone": "<0><1>Phone:</1> <2>+593</2> 98 828 4405 | <3>+593</3> 963 61 6445</0>",
+    "mail": "<0><1>Email:</1> fernando.dev2024@gmail.com</0>"
+  }
 }

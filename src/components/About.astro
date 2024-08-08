@@ -1,42 +1,54 @@
 ---
-import i18next, { t } from "i18next";
+import { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 ---
-<div class="flex flex-col items-center">
-    <div class="mt-28">
+
+<div  class="flex flex-col  p-8  w-full" >
+    <div class="mt-28 flex justify-center">
         <h1 class="font-bold text-4xl text-gradient mb-2 sm:mb-0">{t("about.title")}</h1>
     </div>
-    <div  class="flex flex-row p-8  w-full" >
-        <div class=" p-8 flex justify-center" >
-            <img src="/images/fj-whatsapp.png" alt="Fernando Juela" class="h-auto"/>
+
+    <div class=" bg-opacity-20 bg-gray-400 p-4 pl-10">
+        <Trans i18nKey="about.greeting">
+            <h1 class="sm:text-5xl sm:p-2 text-xl p-1">¡Hola! Soy <b class="text-orange-400">Fernando Juela</b></h1>
+        </Trans>
+        <span class="sm:text-3xl pb-1 sm:border-b-2 border-b-1 border-orange-500">{t("about.specialization")}</span>
+        <br>
+        <br>
+        <p class="sm:text-xl text-sm">{t("about.introduction")}</p>
+        <br>
+        <Trans i18nKey="about.date">
+            <p class="sm:text-lg sm:border-l-4 text-sm border-l-2 pl-2 border-orange-500 m-1"><b>Fecha de nacimiento:</b> 20/03/2000</p>
+        </Trans>
+        <Trans i18nKey="about.country">
+            <p class="sm:text-lg sm:border-l-4 text-sm border-l-2 pl-2 border-orange-500 m-1"><b>País:</b> Ecuador</p>
+        </Trans>
+        <Trans i18nKey="about.telephone">
+            <p class="sm:text-lg sm:border-l-4 text-sm border-l-2 pl-2 border-orange-500 m-1"><b>Teléfono:</b> <span class="text-orange-500">+593</span> 98 828 4405 - <span class="text-orange-500">+593</span> 963 61 6445</p>
+        </Trans>
+        <Trans i18nKey="about.mail">
+            <p class="sm:text-lg sm:border-l-4 text-sm border-l-2 pl-2 border-orange-500 m-1"><b>Correo:</b> fernando.dev2024@gmail.com</p>
+        </Trans>
+        <br>
+        <span class="sm:text-3xl pb-1 sm:border-b-2 border-b-1 border-orange-500"> <b>Skills</b></span>
+        <br>
+        <div class="flex flex-row items-center">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" alt="Angular">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/flask.svg" alt="Flask">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/astrojs.svg" alt="Astro">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/spring-3.svg" alt="Spring Boot">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" alt="TensorFlow">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="JavaScript">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" alt="Tailwind CSS">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/java-4.svg" alt="Java">
+            <img class="sm:w-14 sm:mr-4 w-6 mr-2" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" alt="Bootstrap">
         </div>
         
-        <div class=" bg-opacity-20 bg-gray-400 p-4 pl-10">
-            <h1 class="text-5xl p-2">¡Hola! Soy <b class="text-orange-400">Fernando Juela</b></h1>
-            <span class="text-3xl pb-1 border-b-2 border-orange-500">Desarrollador full-stack y machine learning junior</span>
-            <br>
-            <br>
-            <p class="text-xl">Me especializo en crear experiencias digitales intuitivas y funcionales, tanto en el front-end, el back-end como sistemas que apliquen aprendizaje máquina. Con una sólida comprensión del manejo de bases de datos. Mi pasión por la tecnología me impulsa a aprender constantemente y a perfeccionar mis habilidades para enfrentar nuevos desafíos en el desarrollo de sistemas informáticos.</p>
-            <br>
-            <p class="text-lg border-l-4 pl-2 border-orange-500 m-1"><b>Fecha de nacimiento:</b> 20/03/2000</p>
-            <p class="text-lg border-l-4 pl-2 border-orange-500 m-1"><b>País:</b> Ecuador</p>
-            <p class="text-lg border-l-4 pl-2 border-orange-500 m-1"><b>Teléfono:</b> <span class="text-orange-500">+593</span> 98 828 4405 - <span class="text-orange-500">+593</span> 963 61 6445</p>
-            <p class="text-lg border-l-4 pl-2 border-orange-500 m-1"><b>Correo:</b> fernando.dev2024@gmail.com</p>
-
-            <br>
-            <span class="text-3xl border-b-2 border-orange-500"> <b>Skills</b></span>
-            <br>
-            <div class="flex flex-row items-center">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" alt="Angular">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/flask.svg" alt="Flask">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/spring-3.svg" alt="Spring Boot">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" alt="TensorFlow">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="JavaScript">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" alt="Tailwind CSS">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/java-4.svg" alt="Java">
-                <img class="w-14 mr-2" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" alt="Bootstrap">
-            </div>
-            
-        </div>
     </div>
 </div>
+
+<!-- Colocar imagen
+<div class="mt-28">
+    <h1 class="font-bold text-4xl text-gradient mb-2 sm:mb-0">{t("about.title")}</h1>
+</div> -->

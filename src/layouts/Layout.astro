@@ -1,6 +1,9 @@
 ---
 import Header from '../components/Header.astro';
-import i18next, { t } from "i18next";
+import { t } from "i18next";
+import i18next from '../../i18m.js';
+import LanguageSwitcher from '../components/LanguageSwitcher.jsx'; 
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 ---
 
 <!doctype html>
@@ -12,6 +15,7 @@ import i18next, { t } from "i18next";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 		<meta name="generator" content={Astro.generator} />
+		<HeadHrefLangs />
 		<title>{t("site.title")}</title>
 	</head>
 	<body>
@@ -19,6 +23,7 @@ import i18next, { t } from "i18next";
 		<main class="w-full flex flex-col items-center">
 			<slot />
 		</main>
+		<LanguageSwitcher />
 	</body>
 </html>
 <style is:global>
@@ -36,4 +41,25 @@ import i18next, { t } from "i18next";
         background: linear-gradient(90deg, #070603, #270f07);
 		margin: 0;
 	}
+
+	.floating-language-switch {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #d66508;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+      }
+
+      .floating-language-switch:hover {
+        background-color: #ff7300;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      }
+	
 </style>
