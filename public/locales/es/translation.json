@@ -8,11 +8,17 @@
       "start": "Inicio",
       "about": "Sobre mí",
       "projects": "Proyectos",
-      "studies": "Estudios",
+      "experience": "Experiencia",
       "contact": "Contacto"
     },
     "home": {
       "name": "Fernando Juela",
       "career": "Ingeniero en Ciencias de la Computación"
+    },
+    "about": {
+      "title": "Sobre mí",
+      "greeting": "¡Hola! Soy Fernando Juela, desarrollador full-stack y machine learning junior.",
+      "introducción": "Me especializo en crear experiencias digitales intuitivas y funcionales, tanto en el front-end, el back-end como sistemas que apliquen aprendizaje máquina. Con una sólida comprensión del manejo de bases de datos. Mi pasión por la tecnología me impulsa a aprender constantemente y a perfeccionar mis habilidades para enfrentar nuevos desafíos en el desarrollo de sistemas informáticos."
+
     }
 }
