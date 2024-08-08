@@ -1,0 +1,41 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Home from "../../components/Home.astro";
+import About from "../../components/About.astro";
+import i18next, { t, changeLanguage } from "i18next";
+
+changeLanguage("en");
+---
+
+<Layout>
+    <section id="home" class="w-full h-screen bg-cover bg-center" style="background-image: url('/images/fondo.jpg');">
+        <Home/>
+    </section>
+    
+    <section id="about" class="w-full h-screen">
+        <About/>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="content">
+            <h3>Proyectos</h3>
+            <ul>
+                <li>Proyecto 1: Descripción breve</li>
+                <li>Proyecto 2: Descripción breve</li>
+                <li>Proyecto 3: Descripción breve</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="content">
+            <h3>Contacto</h3>
+            <p>Email: fernando.juela@example.com</p>
+            <p>Teléfono: +1234567890</p>
+            <p>Redes Sociales: 
+                <a href="https://twitter.com/tu_usuario">Twitter</a>,
+                <a href="https://linkedin.com/in/tu_usuario">LinkedIn</a>
+            </p>
+        </div>
+    </section>
+</Layout>
