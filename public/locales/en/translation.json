@@ -18,21 +18,38 @@
   "about": {
     "title": "About Me",
     "greeting": "<0>Hello! I'm <1>Fernando Juela</1></0>",
-    "specialization": "Junior full-stack and machine learning developer.",
-    "introduction": "I specialize in creating intuitive and functional digital experiences, both on the front-end, back-end, and systems that apply machine learning. With a solid understanding of database management. My passion for technology drives me to constantly learn and refine my skills to tackle new challenges in computer system development.",
+    "specialization": "Full-stack developer and junior machine learning engineer.",
+    "introduction": "I specialize in creating intuitive and functional digital experiences, both in front-end, back-end, and systems that apply machine learning. With a solid understanding of database management. My passion for technology drives me to constantly learn and refine my skills to face new challenges in system development.",
     "date": "<0><1>Date of Birth:</1> 03/20/2000</0>",
     "address": "<0><1>Address:</1> Cuenca, Ecuador</0>",
-    "age": "<0><1>Age:</1> 24</0>"
+    "age": "<0><1>Age:</1> 24</0>",
+    "university": "<0><1>University:</1> University of Cuenca</0>"
   },
   "projects": {
-    "title": "Projects"
+    "title": "Projects",
+    "title-p1": "Change Detection and Classification in Images",
+    "description-p1": "Change detection in bitemporal satellite images with deep learning. Deep neural networks BAN, ResNet, and a visualizer system with Streamlit.io. ⁙⁙ Python, TensorFlow, Streamlit.io, Open-CD ⁙⁙",
+    "description-p2": "Deployed portfolio presentation. Showcasing personal data, projects, experience, and contact information. ⁙⁙ Astro, HTML, CSS, Tailwind CSS ⁙⁙",
+    "title-p3": "Sentiment Analysis with BERT",
+    "description-p3": "Retraining Google's NLP BERT model for the task of classifying phrases into positive, neutral, and negative sentiments. ⁙⁙ Python, TensorFlow, Streamlit ⁙⁙",
+    "title-p4": "Face Recognition and Person Tracking",
+    "description-p4": "Face detection and identification in images and videos, displaying the name of the trained person in the model. Tracking used a pre-trained Yolo-v3 model to detect people and enclose them in a rectangle in both images and live video. ⁙⁙ Python, Flask, CSS ⁙⁙",
+    "title-p5": "Website for Publishing and Scheduling Services",
+    "description-p5": "The website allows users to register, create, and search for services offered by other users. It also enables contacting and setting a remuneration, place, and time for the service. ⁙⁙ HTML, CSS, SCSS, Bootstrap, JavaScript, Spring Boot, Java, Postgresql ⁙⁙",
+    "title-p6": "Mobile Application for Patient Tracking and Management",
+    "description-p6": "Mobile application for both Android and iOS aimed at doctors. It allowed the creation of reminders and patient tracking with scheduled therapies. ⁙⁙ Flutter, Spring Boot ⁙⁙"
   },
   "experience": {
-    "title": "Experience"
+    "title": "Experience",
+    "enterprise": "Futura EC Software and Consulting",
+    "description": "Development, maintenance, and deployment of a website for credit unions across the country (Argus Risk).",
+    "position": "<0> <1>Position:</1> Junior Full-stack Developer</0>",
+    "frameworks": "<0> <1>Frameworks used:</1> Front-end: Angular with PrimeAngular; Back-end: Spring Boot; Calculation process: Flask, Database: Postgresql databases both locally and on AWS cloud. </0>",
+    "time": "<0> <1>Duration:</1> August 2023 - November 2023</0>",
+    "site": "Website"
   },
   "contact": {
     "title": "Contact",
-    "address": "<0><1>Address:</1> Cuenca, Ecuador</0>",
     "telephone": "<0><1>Phone:</1> <2>+593</2> 98 828 4405 | <3>+593</3> 963 61 6445</0>",
     "mail": "<0><1>Email:</1> fernando.dev2024@gmail.com</0>"
   }

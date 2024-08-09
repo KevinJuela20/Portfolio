@@ -7,4 +7,21 @@ import { Trans} from "astro-i18next/components";
     <div class="mt-28 flex justify-center">
         <h1 class="font-bold text-4xl text-gradient mb-2 sm:mb-0">{t("experience.title")}</h1>
     </div>
+    <div class="flex flex-col m-[7%]">
+        <span class=" m-3 border-l-8 border-orange-600"> 
+            <p class="pl-2 text-orange-400 text-xl font-bold">{t("experience.enterprise")}</p>
+            <p class="pl-2 font-bold">{t("experience.description")}</p>
+            <Trans i18nKey="experience.position">
+                <p class="pl-2"> <b>Puesto:</b> Desarrollador Full-stack Junior</p>
+            </Trans>
+            <Trans i18nKey="experience.frameworks">
+                <p class="pl-2"> <b>Frameworks manejados:</b> Front-end: Angular con primeAngular; Back-end: Spring Boot; Proceso de cálculos: Flask, Base de datos: Bases de datos Postgresql locales y en la nube AWS. </p>
+            </Trans>
+            <Trans i18nKey="experience.time">
+                <p class="pl-2 mb-2"> <b>Tiempo:</b> agosto 2023 - noviembre 2023</p>
+            </Trans>
+            <br>
+            <a class=" m-4 text-sm sm:p-1.5 border-orange-600 border-2 contact" href="https://www.futura.ec">{t("experience.site")}</a>
+        </span>
+    </div>
 </div>

@@ -22,13 +22,31 @@
       "introduction": "Me especializo en crear experiencias digitales intuitivas y funcionales, tanto en el front-end, el back-end como sistemas que apliquen aprendizaje máquina. Con una sólida comprensión del manejo de bases de datos. Mi pasión por la tecnología me impulsa a aprender constantemente y a perfeccionar mis habilidades para enfrentar nuevos desafíos en el desarrollo de sistemas informáticos.",
       "date": "<0><1>Fecha de nacimiento:</1> 20/03/2000</0>",
       "address": "<0><1>Dirección:</1> Cuenca, Ecuador</0>",
-      "age": "<0><1>Edad:</1> 24</0>"
+      "age": "<0><1>Edad:</1> 24</0>",
+      "university": "<0><1>Universidad:</1> Universidad de Cuenca</0>"
     },
     "projects": {
-      "title": "Proyectos"
+      "title": "Proyectos",
+      "title-p1": "Detección y clasificación de cambios en imágenes",
+      "description-p1": "Detección de cambios en imágenes satelitales bitemporales con aprendizaje profundo. Redes neuronales profundas BAN, ResNet y un sistema visualizador con Streamlit.io. ⁙⁙ Python, TensorFlow, Streamlit.io, Open-CD ⁙⁙",
+      "description-p2": "Portafolio de presentación desplegado. Presenta datos personales, proyectos, experiencia y contacto. ⁙⁙ Astro, HTML, CSS, Tailwind CSS ⁙⁙",
+      "title-p3": "Análisis de sentimientos con BERT",
+      "description-p3": "Reentrenar el modelo de NLP de Google BERT, para la tarea de clasificación de frases en positivas, neutras y negativas. ⁙⁙ Python, TensorFlow, Streamlit ⁙⁙",
+      "title-p4": "Reconocimiento de rostros y seguimiento de personas",
+      "description-p4": "Detección e identificación de rostros en imágenes y videos, se coloca el nombre de la persona entrenada en un modelo. El seguimiento se usó un modelo preentrenado Yolo-v3 para detectar personas y encerrarla en un rectángulo tanto en imágenes y video en vivo. ⁙⁙ Python, Flask, CSS ⁙⁙",
+      "title-p5": "Sitio web para publicar servicios y agendarlos",
+      "description-p5": "El sitio web permite registrarse, crear y buscar servicios ofrecidos por otros usuarios. Además, permite contactar y establecer una remuneración, lugar y hora del servicio. ⁙⁙ HTML, CSS, SCSS, Bootstrap, JavaScript, Spring Boot, Java, Postgresql ⁙⁙",
+      "title-p6": "Aplicación movil para seguimiento y control de pacientes",
+      "description-p6": "Aplicación movil tanto para Andorid como para iOS dirigida para doctores. Permitía crear recordatorios y realizar un seguimiento de pacientes con terapias agendadas. ⁙⁙ Flutter, Spring Boot ⁙⁙"
     },
     "experience": {
-      "title": "Experiencia"
+      "title": "Experiencia",
+      "enterprise": "Futura EC Software y Consultoría",
+      "description": "Desarrollo, mantenimiento y despliegue de un sitio web para Cooperativas de ahorro y crédito de todo el país (Argus Risk).",
+      "position": "<0> <1>Puesto:</1> Desarrollador Full-stack Junior</0>",
+      "frameworks": "<0> <1>Frameworks manejados:</1> Front-end: Angular con primeAngular; Back-end: Spring Boot; Proceso de cálculos: Flask, Base de datos: Bases de datos Postgresql locales y en la nube AWS. </0>",
+      "time": "<0> <1>Tiempo:</1> agosto 2023 - noviembre 2023</0>",
+      "site": "Sitio web"
     },
     "contact": {
       "title": "Contacto",
